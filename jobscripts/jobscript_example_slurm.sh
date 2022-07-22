@@ -18,6 +18,7 @@ module load python
 module load cuda
 module load cuDNN
 
+# In the conda env, install the necesary requirements
 eval "$(path to the conda or minidocnda bin directory/bin/conda shell.bash hook)"
 conda activate # name of your env
 
