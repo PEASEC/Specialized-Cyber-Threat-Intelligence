@@ -1,0 +1,10 @@
+datasets==1.9.0
+ipdb==0.13.9
+numpy==1.20.3
+pandas==1.4.0
+pandas_stubs==1.2.0.44
+scikit_learn==1.0.2
+sentence_transformers==2.0.0
+torch==1.9.0+cu111
+tqdm==4.61.2
+transformers==4.13.0.dev0
