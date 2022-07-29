@@ -27,7 +27,7 @@ If you chose to use any of the techniques or the code itself, please cite the fo
 
 Markus Bayer \
 Tobias Frey \
-Christian Reuther \
+Christian Reuther 
 
 # License
 BSD 2-Clause License
