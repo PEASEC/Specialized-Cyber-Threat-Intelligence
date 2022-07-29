@@ -136,6 +136,6 @@ def apply_filtering(reference_data, reference_labels, unlabeled_data, reference_
 
 def save_augmented_data(data, augmented_class):
     suffix = "pos" if augmented_class == 1 else "neg"
-    with open('../../data/augmented/train_' + suffix + '.pkl', 'wb') as outfile:
+    with open('../../msexchange-server-cti-dataset/augmented/train_' + suffix + '.pkl', 'wb') as outfile:
         pickle.dump(augmented_data, f)
         

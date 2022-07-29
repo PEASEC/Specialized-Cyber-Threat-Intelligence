@@ -70,7 +70,6 @@ traitlets==5.1.1
 transformers==4.13.0
 typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
 urllib3==1.26.8
-wandb==0.12.17
 wcwidth==0.2.5
 xxhash==2.0.2
 yaspin==2.1.0

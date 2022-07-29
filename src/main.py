@@ -125,7 +125,7 @@ def main():
     augmented_data_pos = []
     augmented_data_neg = []
     if str2bool(args.augmentation):
-        files_found = os.path.isfile("./data/augmented/SpecializedCySec/train_pos.pkl") and os.path.isfile("./data/augmented/SpecializedCySec/train_neg.pkl")
+        files_found = os.path.isfile("./msexchange-server-cti-dataset/augmented/SpecializedCySec/train_pos.pkl") and os.path.isfile("./msexchange-server-cti-dataset/augmented/SpecializedCySec/train_neg.pkl")
         
         if not str2bool(args.cached_files) or not files_found:
             print("Augmenting the data is not implemented! Pull the Master and try using the already augmented datasets.")
@@ -138,9 +138,9 @@ def main():
             #                                    X_train, y_train, reference_class:0, augmented_data_neg, close_instances=True)
             #data.data_augmentation.save_augmented_data(augmented_data_neg, 0)
         
-        with open ('./data/augmented/SpecializedCySec/train_pos.pkl', 'rb') as fp:
+        with open ('./msexchange-server-cti-dataset/augmented/SpecializedCySec/train_pos.pkl', 'rb') as fp:
             X_train_additional_pos = list(pickle.load(fp))
-        with open ('./data/augmented/SpecializedCySec/train_neg.pkl', 'rb') as fp:
+        with open ('./msexchange-server-cti-dataset/augmented/SpecializedCySec/train_neg.pkl', 'rb') as fp:
             X_train_additional_neg = list(pickle.load(fp))
 
         X_train += X_train_additional_pos + X_train_additional_neg

@@ -7,9 +7,9 @@ def read_special_cysec_data():
     return dataset, labels
 
 def read_general_cysec_data():
-    with open("./data/external/GeneralCySec/dataset_1.json") as dataset_1_file:
+    with open("./msexchange-server-cti-dataset/external/GeneralCySec/dataset_1.json") as dataset_1_file:
         dataset_1 = json.load(dataset_1_file) 
-    with open("./data/external/GeneralCySec/dataset_2.json") as dataset_2_file:
+    with open("./msexchange-server-cti-dataset/external/GeneralCySec/dataset_2.json") as dataset_2_file:
         dataset_2 = json.load(dataset_2_file) 
         
     dataset = [instance["text"] for instance in dataset_1] + [instance["text"] for instance in dataset_2]
@@ -20,11 +20,11 @@ def read_general_cysec_data():
     return dataset, labels_binary
 
 def read_specialized_cysec_data():    
-    df_train_full = pd.read_csv("./data/external/SpecializedCySec/df_train_full.csv")
-    df_train = pd.read_csv("./data/external/SpecializedCySec/df_train.csv")
-    df_dev_full = pd.read_csv("./data/external/SpecializedCySec/df_dev_full.csv")
-    df_dev = pd.read_csv("./data/external/SpecializedCySec/df_dev.csv")
-    df_test = pd.read_csv("./data/external/SpecializedCySec/df_test.csv")
+    df_train_full = pd.read_csv("./msexchange-server-cti-dataset/external/SpecializedCySec/df_train_full.csv")
+    df_train = pd.read_csv("./msexchange-server-cti-dataset/external/SpecializedCySec/df_train.csv")
+    df_dev_full = pd.read_csv("./msexchange-server-cti-dataset/external/SpecializedCySec/df_dev_full.csv")
+    df_dev = pd.read_csv("./msexchange-server-cti-dataset/external/SpecializedCySec/df_dev.csv")
+    df_test = pd.read_csv("./msexchange-server-cti-dataset/external/SpecializedCySec/df_test.csv")
     
     X_train_full, y_train_full = df_train_full["text"].tolist(), df_train_full["label"].tolist()
     X_train, y_train = df_train["text"].tolist(), df_train["label"].tolist()
