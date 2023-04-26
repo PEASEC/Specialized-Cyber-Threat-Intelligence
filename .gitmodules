@@ -1,0 +1,3 @@
+[submodule "msexchange-server-cti-dataset"]
+	path = msexchange-server-cti-dataset
+	url = https://github.com/PEASEC/msexchange-server-cti-dataset
