@@ -33,7 +33,7 @@ Before using the code make sure to install packages in the right order:
 5. In the file src/data/read_dataset.py add your twitter api informations
 
 The versions of the packages are the ones we used during our evaluations.
-The cybersecurity domain-trained CyBERT model used is published in [CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain](https://arxiv.org/abs/2212.02974) Bayer et al. (2022) [2].
+The cybersecurity domain-trained CySecBERT model used is published in [CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain](https://arxiv.org/abs/2212.02974) Bayer et al. (2022) [2].
 
 [2]: Bayer, M., Kuehn, P.D., Shanehsaz, R., & Reuter, C.A. (2022). CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain. ArXiv, abs/2212.02974.
 
