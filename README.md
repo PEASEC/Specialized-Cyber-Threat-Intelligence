@@ -6,9 +6,16 @@ Further explanations contains the paper [*Multi-Level Fine-Tuning, Data Augmenta
 
 [1]: Bayer, Frey and Reuter (2022) Multi-Level Fine-Tuning, Data Augmentation, and Few-Shot Learning for Specialized Cyber Threat Intelligence,
 
-If you chose to use any of the techniques or the code itself, please cite the following paper.
+
+## Contact and Support
+
+If you have any questions, need access to datasets or the complete research data, or if you encounter any bugs, please feel free to contact me!
+
+
 
 # Citing
+
+If you chose to use any of the techniques or the code itself, please cite the following paper.
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2207.11076,
