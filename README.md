@@ -1,6 +1,8 @@
 # Specialized-Cyber-Threat-Intelligence
 
-This repository hosts the code to the model training technique including a novel pipeline combining transfer learning, data augmentation, and few-shot learning for developing an effective specialized cyber threat intelligence (CTI) classifier and Novel techniques of data augmentation and few-shot learning to deal with a small number of training instances.
+As systems become more complex, gathering cyber threat intelligence from open sources is crucial for maintaining security. However, the vast amount of information can lead to overload, making it difficult to process emerging cybersecurity events like new malware or attack contexts using existing classifiers. To address this, the authors propose a system that trains a new classifier for each incident, using a combination of three low-data regime techniques: transfer learning, data augmentation, and few-shot learning. 
+
+This repository contains the code and the dataset (reference) of this framework.
 
 Further explanations contains the paper [*Multi-Level Fine-Tuning, Data Augmentation, and Few-Shot Learning for Specialized Cyber Threat Intelligence*](https://arxiv.org/abs/2207.11076) [1].
 
